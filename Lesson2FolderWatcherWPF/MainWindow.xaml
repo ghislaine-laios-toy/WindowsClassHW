@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
-        <local:FolderWatcherViewModel x:Key="ViewModel"></local:FolderWatcherViewModel>
+        <local:FolderWatcherViewModel x:Key="ViewModel" />
     </Window.Resources>
     <Window.DataContext>
-        <Binding Source="{StaticResource ViewModel}"></Binding>
+        <Binding Source="{StaticResource ViewModel}" />
     </Window.DataContext>
     <Grid>
         <Grid.Resources>
@@ -19,22 +19,20 @@
             </Style>
         </Grid.Resources>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="4*"></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <ListView 
-            Style="{StaticResource RecommendMargin}" 
+        <ListView
+            Style="{StaticResource RecommendMargin}"
             Grid.Column="0"
-            ItemsSource="{Binding Path=Logs}">
-            
-        </ListView>
+            ItemsSource="{Binding Path=Logs}" />
         <StackPanel
             Style="{StaticResource RecommendMargin}"
             Grid.Column="1">
             <StackPanel.Resources>
                 <Style TargetType="Button">
-                    <Setter Property="Margin" Value="0,0,0,12"></Setter>
-                    <Setter Property="Height" Value="30"></Setter>
+                    <Setter Property="Margin" Value="0,0,0,12" />
+                    <Setter Property="Height" Value="30" />
                 </Style>
             </StackPanel.Resources>
             <Button Click="ChooseDirectory_Button_Click">选择文件监视目录</Button>
