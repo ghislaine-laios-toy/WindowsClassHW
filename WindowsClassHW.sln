@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3ComClient", "Lesson3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3FireEvent", "Lesson3FireEvent\Lesson3FireEvent.csproj", "{A9B555F6-A100-4E08-8243-C601B6AC58D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson2ThreadingScreenshot", "Lesson2ThreadingScreenshot\Lesson2ThreadingScreenshot.csproj", "{5BA97D5A-B4F9-445F-AF23-A40DE6074374}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,14 @@ Global
 		{A9B555F6-A100-4E08-8243-C601B6AC58D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A9B555F6-A100-4E08-8243-C601B6AC58D2}.Release|x86.ActiveCfg = Release|Any CPU
 		{A9B555F6-A100-4E08-8243-C601B6AC58D2}.Release|x86.Build.0 = Release|Any CPU
+		{5BA97D5A-B4F9-445F-AF23-A40DE6074374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA97D5A-B4F9-445F-AF23-A40DE6074374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA97D5A-B4F9-445F-AF23-A40DE6074374}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5BA97D5A-B4F9-445F-AF23-A40DE6074374}.Debug|x86.Build.0 = Debug|Any CPU
+		{5BA97D5A-B4F9-445F-AF23-A40DE6074374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA97D5A-B4F9-445F-AF23-A40DE6074374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA97D5A-B4F9-445F-AF23-A40DE6074374}.Release|x86.ActiveCfg = Release|Any CPU
+		{5BA97D5A-B4F9-445F-AF23-A40DE6074374}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
