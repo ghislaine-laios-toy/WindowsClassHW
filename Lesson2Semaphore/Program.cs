@@ -31,7 +31,7 @@ internal class Work
 
     public static void Main()
     {
-        for (var i = 0; i < 1; i++)
+        for (var i = 0; i < 2; i++)
         {
             var t = new Thread(Produce);
             t.Start(i);

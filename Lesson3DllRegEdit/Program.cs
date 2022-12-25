@@ -21,3 +21,4 @@ var values2 = Registry.GetValues(demoKey2);
 Registry.CloseKey(key);
 Registry.DeleteKey(Registry.Handlers.HKEY_CURRENT_USER, @"SoftWare\DemoSoftware");
 // Add a breakpoint here to see variables.
+return;
